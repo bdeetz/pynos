@@ -11,7 +11,7 @@ setup(name='pynos',
       author_email='mstone@brocade.com, ssavla@brocade.com',
       url='http://www.brocade.com/',
       packages=find_packages(exclude=['templates']),
-      install_requires=["ncclient==0.4.5", "ipaddress"],
+      install_requires=["ncclient==0.4.5", "ipaddress", "lxml"],
       classifiers=[
           'Development Status :: 5 - Production/Stable',
           'Intended Audience :: Developers',
